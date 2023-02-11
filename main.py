@@ -55,6 +55,6 @@ if __name__ == '__main__':
         else:
             tweet = tweets[tid]
             print(tweet)
-            ofp.write('%s\n\n' % tweet)
+            ofp.write('%s\n' % tweet)
     # close files
     ofp.close()
